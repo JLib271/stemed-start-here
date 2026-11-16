@@ -1,0 +1,4 @@
+{
+  "asset_dirs": ["site"],
+  "bars": [{"file": "site/index.html"}]
+}
