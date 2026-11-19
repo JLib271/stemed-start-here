@@ -1,32 +1,21 @@
-# STEMEd+ Commons: Start here
+# STEMEd+ Commons: Why STEMEd+?
 
-The **Start here** page for [STEMEd+ Commons](https://stemedplus.org/): one page that shows new
-visitors (research faculty, graduate students, K-12 teachers, and STEM instructors) where to go
-first, organized as **Find → Build → Share**.
+The **Why STEMEd+?** page for [STEMEd+ Commons](https://stemedplus.org/), linked from the menu on every
+STEMEd+ site: https://jlib271.github.io/stemed-start-here/
 
-Live at **https://jlib271.github.io/stemed-start-here/**
+The homepage shows what you can do on STEMEd+. This page says why it exists and why to take part:
 
-## What's on the page
-
-1. **Find · Build · Share** banner. Each card jumps to its part of "How it all fits together".
-2. **ROLE: I am a…** Four role buttons. Each shows a four-step path (Find, Sign in, Build, Share back).
-   Link straight to a role with `#faculty`, `#grad`, `#k12`, or `#instructor`.
-3. **GOAL: I want to…** Four goal groups. Picking a role marks the goals suggested for it.
-   `#goals` jumps here.
-4. **Do I need an account?**
-5. **How it all fits together**, with the find → build → share network picture.
-
-Without JavaScript, all four role paths show one after another, so nothing is hidden.
+1. **Ours, not mine.** The mission, with Join and a link to the homepage.
+2. **Why we built this.** Scattered, locked away, lost.
+3. **What we're building.** Open access, open scholarship, open infrastructure, and why the plus.
+4. **Where we're headed.** Peer review, humane metrics, communities with a say.
+5. **Why take part.** What you get, and what you give.
+6. **Who's behind it.** NSF, Knowledge Commons and GitHub, the Advisory Board and User Advisory Committee.
+7. **Your first three steps,** with a first link for each role.
+8. **Collaborate with us.** Writing STEMEd+ into a grant: guided onboarding and co-design.
 
 ## Editing
 
-Everything is in `site/index.html`. Links, role paths, and goals are plain HTML: edit the text or the
-`href` and commit. A goal's `data-who` lists the roles it is suggested for.
-
-The green band, menu, and footer come from [stemedplus-theme](https://github.com/JLib271/stemedplus-theme)
-and are refreshed at every publish; don't edit them here. Icons are in `site/icons/`.
-
-## Publishing
-
-`.github/workflows/publish.yml` publishes `site/` to GitHub Pages on every push to `main` and weekly.
-Turn on once: **Settings → Pages → Source: GitHub Actions**.
+Everything is in `site/index.html`, as plain HTML. The design lives on the STEMEd+ design canvas
+(board 1); copy changes there into this file. The green band, menu, and footer come from
+[stemedplus-theme](https://github.com/JLib271/stemedplus-theme) and are refreshed on every publish.
