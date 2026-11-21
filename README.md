@@ -1,7 +1,7 @@
 # STEMEd+ Commons: Why STEMEd+?
 
 The **Why STEMEd+?** page for [STEMEd+ Commons](https://stemedplus.org/), linked from the menu on every
-STEMEd+ site: https://jlib271.github.io/stemed-start-here/
+STEMEd+ site: https://stemedplus.github.io/stemed-start-here/
 
 The homepage shows what you can do on STEMEd+. This page says why it exists and why to take part:
 
@@ -18,4 +18,4 @@ The homepage shows what you can do on STEMEd+. This page says why it exists and 
 
 Everything is in `site/index.html`, as plain HTML. The design lives on the STEMEd+ design canvas
 (board 1); copy changes there into this file. The green band, menu, and footer come from
-[stemedplus-theme](https://github.com/JLib271/stemedplus-theme) and are refreshed on every publish.
+[stemedplus-theme](https://github.com/stemedplus/stemedplus-theme) and are refreshed on every publish.
